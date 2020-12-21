@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Raleway:wght@400;700&display=swap');
+
+
+body {
+  background-color: black;
+  font-family: 'Lato', sans-serif;
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* HOME */
+
+.home {
+  background: radial-gradient(circle, rgba(12, 104, 255, 1) 40%, rgba(0, 0, 0, 1) 85%);
+}
+
+.title {
+  color: white;
+  font: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 5vw;
+  margin-bottom: 2rem;
+  text-shadow: .1rem .1rem .1rem black;
+}
+
+.btn-home:hover {
+  font-weight: 700;
+  color: white;
+  border-style: none;
+  background-color: rgba(0, 0, 0, 0.1);
+  text-shadow: .1rem .1rem .1rem black;
+}
+
+.btn-home {
+  text-align: center;
+  font-weight: 300;
+  text-shadow: .1rem .1rem .1rem black;
+  word-wrap: break-word;
+  z-index: 1;
+  border-radius: 0;
+  width: 8vw;
+  height: 8vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-style: none;
+  margin: .5rem;
+  padding: 0;
+}
+
+.btn-home p {
+  width: 100%;
+  font-size: 1vw;
+}
+
+.img {
+  z-index: -2;
+  position: absolute;
+  width: 8vw;
+  height: 8vw;
+  margin: .5rem;
+  padding: 0;
+}
+
+/* DIFFICULTY */
+
+.btn-diff {
+  color: black;
+  border-radius: 0;
+  margin: 1rem .5rem 1rem .5rem;
+  background-color: rgb(255, 255, 255, 0.5) !important;
+  border-style: none;
+  font-size: 1.5rem;
+  width: 10rem;
+  height: 5rem;
+}
+
+.btn-diff:hover {
+  color: black;
+  background-color: rgb(199, 199, 199) !important;
+  border-radius: 0;
+  margin: 1rem .5rem 1rem .5rem;
+  background-color: white;
+  border-style: none;
+  font-size: 2rem;
+}
+
+/* QUESTION */
+
+.question {
+  height: 100vh;
+}
+
+.questionTitle {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+.points {
+  color: white;
+}
+
+.btn-question {
+  outline: none !important;
+  position: relative;
+  color: black;
+  background-color: rgb(255, 255, 255, 0.5) !important;
+  border-radius: 0;
+  margin: 2rem .5rem 1rem .5rem;
+
+  border-style: none;
+  font-size: 70%;
+  width: 25%;
+  height: 2.7rem;
+}
+
+.btn-question:focus {
+  outline: none !important;
+}
+
+.btn-question:hover {
+  outline: none !important;
+  border-style: none;
+  background-color: rgb(199, 199, 199) !important;
+  font-size: 75%;
+}
+
+/* SCORE PAGE */
+
+.btn-end {
+  color: black;
+  border-radius: 0;
+  margin: 1rem .5rem 1rem .5rem;
+  background-color: rgb(255, 255, 255, 0.5) !important;
+  border-style: none;
+  font-size: 90%;
+  margin-top: 5rem;
+  width: 7rem;
+  height: 4rem;
+}
+
+.btn-end:hover {
+  background-color: rgb(199, 199, 199) !important;
+  font-size: 100%;
+}
+
+/* UNIVERSAL */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  max-width: 100%;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* POINTS */
+.points-heading {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.total {
+  font-size: 7rem;
+  font-weight: 700
+}
