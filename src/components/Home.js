@@ -29,7 +29,7 @@ const Home = () => {
   return <div className="container home">
 
 
-    <h1 className="title">Trivia Quiz</h1>
+    <h1 className="title">Trivia</h1>
 
     <Zoom appear={true}>
 
@@ -41,7 +41,7 @@ const Home = () => {
          
           return <div className="col text-center" key={index}>
 
-            <Link to={`/project-2/difficulty/${category.id}`} key={index}>
+            <Link to={`/trivia/difficulty/${category.id}`} key={index}>
               <img className="img" key2={index} src={url + images[number]} />
 
               <button className="btn btn-outline-light btn-lg btn-home" key={index}>

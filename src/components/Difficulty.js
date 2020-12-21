@@ -17,19 +17,19 @@ const Difficulty = (props) => {
 
     <Bounce bottom appear={true}>
       <div className="row justify-content-center">
-        <Link to={`/project-2/${categoryId}/${'easy'}/question`}>
+        <Link to={`/trivia/${categoryId}/${'easy'}/question`}>
           <button className="btn btn-outline-light btn-lg btn-diff">
             Easy
         </button>
         </Link>
 
-        <Link to={`/project-2/${categoryId}/${'medium'}/question`}>
+        <Link to={`/trivia/${categoryId}/${'medium'}/question`}>
           <button className="btn btn-outline-light btn-lg btn-diff">
             Medium
         </button>
         </Link>
 
-        <Link to={`/project-2/${categoryId}/${'hard'}/question`}>
+        <Link to={`/trivia/${categoryId}/${'hard'}/question`}>
           <button className="btn btn-outline-light btn-lg btn-diff">
             Hard
         </button>
@@ -39,7 +39,7 @@ const Difficulty = (props) => {
 
     <div>
       <Bounce bottom appear={true}>
-        <Link to={`/project-2`}>
+        <Link to={`/trivia`}>
           <button className="btn btn-outline-light btn-lg btn-end">
             Back to categories
         </button>

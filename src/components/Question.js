@@ -79,7 +79,7 @@ const Question = (props) => {
           {!gamePlay ?
 
             <Bounce bottom appear={true}>
-              <Link to={`/project-2/question/${playerPoints}`}>
+              <Link to={`/trivia/question/${playerPoints}`}>
                 <button className="btn btn-outline-light btn-lg btn-end">
                   End Quiz
               </button>

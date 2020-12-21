@@ -14,7 +14,7 @@ const Score = (props) => {
 
     </Bounce>
     <Bounce bottom appear={true}>
-      <Link to={'/project-2'}>
+      <Link to={'/trivia'}>
         <button className="btn btn-outline-light btn-lg btn-end">
           Play Again!
         </button>

@@ -10,10 +10,10 @@ import Score from './components/Score'
 const App = () => (
   <BrowserRouter>
     <Switch>
-      <Route exact path="/project-2" component={Home}/>
-      <Route exact path="/project-2/difficulty/:categoryId" component={Difficulty}/>
-      <Route exact path="/project-2/:categoryId/:difficultyId/question" component={Question}/>
-      <Route exact path="/project-2/question/:score" component={Score} />
+      <Route exact path="/trivia" component={Home}/>
+      <Route exact path="/trivia/difficulty/:categoryId" component={Difficulty}/>
+      <Route exact path="/trivia/:categoryId/:difficultyId/question" component={Question}/>
+      <Route exact path="/trivia/question/:score" component={Score} />
     </Switch>
   </BrowserRouter>
 )
