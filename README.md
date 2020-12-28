@@ -2,7 +2,7 @@
 
 ## Overview
 
-Two day paired hackathon. Using React, we created a Trivia Quiz app based on a Trivia API and the Bootstrap framework. Part of the General Assembly SEI course. 
+Two day paired hackathon. Using React, we created a Trivia app using an open source Trivia API and the Bootstrap framework. Part of the General Assembly SEI bootcamp. 
 
 The app generates 10 questions from the API in three different difficulties and from 23 categories.
 
