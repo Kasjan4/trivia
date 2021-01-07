@@ -97,7 +97,7 @@ Here we can see the same concept as before, where each difficulty button takes t
         </Link>
 ```
 
-## Question page
+## Question Page
 
 ![Trivia Quiz](./img/screenshots/ques.png)
 
@@ -168,7 +168,7 @@ The data from our API presented HTML symbols which wouldnt render in our page, s
 
 - Our API didnt have enough questions available for the true/false type. This meant we had to switch to multiple choice questions to get a large variety of questions to work.
  
-## Potential future features
+## Potential Future Features
 
 - To make a button allowing the user to switch between 10/20 and more questions in the quiz.
 
