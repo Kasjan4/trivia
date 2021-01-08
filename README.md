@@ -38,7 +38,7 @@ We used the following React modules:
   }, [])
 ```
 
-- React Reveal: for entry effects in some components
+- React Reveal: for entry effects in some components.
 
 ```js
     </Bounce>
@@ -57,7 +57,7 @@ Our API was the OpenTDB: https://opentdb.com/api_config.php
 
 ![Trivia Quiz](./img/screenshots/home.png)
 
-To have our categories displayed, we mapped the data from the API to the page. For the images, we mapped them with an index, where each index correponded to a local file name. 
+To have our categories displayed, we mapped the data from the API to the page. For the images, we mapped them with an index, where each index corresponded to a local file name. 
 
 Based on which category the user chose, the correct category index was passed on to the difficulties page inside the pathname.
 
@@ -119,8 +119,8 @@ Here we are retrieving the data from the props and creating a url based on the d
   }, [])
 ```
 
-One of the challenges faced was the API returned possible aanswers as an array AND a single value.
-To solve this we used a method of .flat and .sort to randomize the order of the question answers.
+One of the challenges faced was the API returned possible answers as an array AND a single value.
+To solve this we used a method of .flat and .sort to randomise the order of the question answers.
 
 ```js
   const questionArray = []
@@ -129,7 +129,7 @@ To solve this we used a method of .flat and .sort to randomize the order of the 
   const questionArrayFlat = questionArray.flat()
   const questionArrayRand = questionArrayFlat.sort()
 ```
-We used React Reveal to make animatied entries of the questions on render. In this case the Zoom entry makes each question zoom in on entry.
+We used React Reveal to make animated entries of the questions on render. In this case the Zoom entry makes each question zoom in on entry.
 
 ```js
 return <div className="container home">
@@ -138,9 +138,9 @@ return <div className="container home">
       <div className="row text-center">
 ```
 
-After mapping the question array, which we recieved from our API, we used a mixture of useState and array index to generate and update the questions. We tracked the users score and the amount of questions they answered  to know when to end the quiz.
+After mapping the question array, which we received from our API, we used a mixture of useState and array index to generate and update the questions. We tracked the users score and the amount of questions they answered  to know when to end the quiz.
 
-The data from our API presented HTML symbols which wouldnt render in our page, so we had to substitute for example /&quot;/ to "".
+The data from our API presented HTML symbols which wouldn't render in our page, so we had to substitute for example /&quot;/ to "".
 
 ```js
 {gamePlay ? <div>
@@ -164,14 +164,14 @@ The data from our API presented HTML symbols which wouldnt render in our page, s
 
 ## Bugs (Fixed)
 
-- Our images wouldnt load after we pushed our project to GitHub, because of the local file paths being relative to our local folder. We solved this by chaning the root folder pathname to window.location.href.
+- Our images wouldn't load after we pushed our project to GitHub, because of the local file paths being relative to our local folder. We solved this by changing the root folder pathname to window.location.href.
 
-- Our API didnt have enough questions available for the true/false type. This meant we had to switch to multiple choice questions to get a large variety of questions to work.
+- Our API didn't have enough questions available for the true/false type. This meant we had to switch to multiple choice questions to get a large variety of questions to work.
  
 ## Potential Future Features
 
 - To make a button allowing the user to switch between 10/20 and more questions in the quiz.
 
-- Auto generate category images from a seperate API instead of hosting the images locally.
+- Auto generate category images from a separate API instead of hosting the images locally.
 
 
