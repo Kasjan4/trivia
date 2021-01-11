@@ -174,4 +174,6 @@ The data from our API presented HTML symbols which wouldn't render in our page, 
 
 - Auto generate category images from a separate API instead of hosting the images locally.
 
+## Colaborators
 
+- Lee Burgess
