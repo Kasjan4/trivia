@@ -167,6 +167,16 @@ The data from our API presented HTML symbols which wouldn't render in our page, 
 - Our images wouldn't load after we pushed our project to GitHub, because of the local file paths being relative to our local folder. We solved this by changing the root folder pathname to window.location.href.
 
 - Our API didn't have enough questions available for the true/false type. This meant we had to switch to multiple choice questions to get a large variety of questions to work.
+
+## Wins
+
+- Gained a better understanding of API calls and how to manage the data.
+- Developed better React skills and managing different components.
+
+## Challenges
+
+- Working with React async methods.
+- Recieving some characters such as quotes through API calls was a surprise, symbols had to be converted back to their original characters.
  
 ## Potential Future Features
 
@@ -174,4 +184,6 @@ The data from our API presented HTML symbols which wouldn't render in our page, 
 
 - Auto generate category images from a separate API instead of hosting the images locally.
 
+## Colaborators
 
+- Lee Burgess
