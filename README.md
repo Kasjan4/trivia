@@ -8,6 +8,8 @@ The app generates 10 questions from the API in three different difficulties and 
 
 [CHECK IT OUT HERE ](https://kasjanhinc.github.io/trivia/)
 
+![Trivia Quiz](./img/screenshots/home.png)
+
 # Brief
 
 Thhe pages were structured to pass on variables on the users choice of category and difficulty. We used React Router to link the pages.
